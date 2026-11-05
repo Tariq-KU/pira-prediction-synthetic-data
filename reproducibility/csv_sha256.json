@@ -1,0 +1,15 @@
+{
+  "data/blood_measurements_long.csv": "acd320ef327368288d1c488480db4946cfae0cadd862aa3a5bc2a02f6b968526",
+  "data/development.csv": "188c704e94b040cbab97aa88ba85d79ef56fc02e8ef2ae9a527572e427a32ee1",
+  "data/eligibility_context.csv": "d93ceb8deb9d228a165f1cd14d67eaba96a43aed0fc447b64dfea315e3966869",
+  "data/mri_measurements_long.csv": "dac42064bc88b98eba146e88fafa0973a4bd17de3aed66f2f81d9249162dc43e",
+  "data/null_development.csv": "628647fc17b606915fb9d8fe545cef324782f5ac0f03c57aa511298070aed449",
+  "data/null_validation.csv": "8d5464954df46019ba07c6853f935b2524eed404806f5439d9fba38a8093817a",
+  "data/validation.csv": "df20a67822fb0e49688f59d642f9802b64052ab0d5a766cf9d6aea584fc52d71",
+  "documentation/assumptions.csv": "41bf81742a6ac465629eabfa2845de242b401a2b83e3906b1c2ed3cf43a82fc3",
+  "documentation/data_dictionary.csv": "2e8ab1fd20cd0e4fa854e233b4a150ec7eee43f72f3e22982c78da7d30a7744d",
+  "documentation/dataset_summary.csv": "6ad391c96d0fa8e8727d3cff9b1e80d44110b10fe6fb2f2af9a6fde1a016d1ec",
+  "documentation/sources.csv": "7cc689ce7285c4fdb3c2a51315b38bee68b20fb2baab63e5321dffe8edf6dc8e",
+  "reproducibility/DO_NOT_USE_AS_PREDICTORS/complete_values_before_missingness.csv": "f0ca958575f335caec41dfe2294501133358eaf6f335e74a87c41edad179a6bc",
+  "reproducibility/DO_NOT_USE_AS_PREDICTORS/generating_truth.csv": "5f0cb2ca63bf8af832027183ea3492de1acae6d79c10e3b519483a7fdb30ef17"
+}

@@ -1,0 +1,61 @@
+{
+  "master_seed": 20261022,
+  "n_development": 1000,
+  "n_validation": 500,
+  "expected_reference_risk": 0.15,
+  "weibull_shape": 1.35,
+  "baseline_cumulative_hazard_at24": {
+    "modest_added_signal": 0.10309527968641441,
+    "no_added_signal": 0.1313392734434159
+  },
+  "seed_offsets": {
+    "development_predictors": 100,
+    "validation_predictors": 101,
+    "development_outcome_and_censor": 200,
+    "validation_outcome_and_censor": 201,
+    "development_missingness": 300,
+    "validation_missingness": 301,
+    "independent_reference_population": 700
+  },
+  "clinical_predictors": [
+    "age_m12_years",
+    "sex",
+    "disease_duration_m12_years",
+    "edss_m12",
+    "relapses_m0_m12",
+    "dmt_class_m12",
+    "dmt_duration_m12_months",
+    "bmi_m12_kg_m2",
+    "egfr_m12_ml_min_1_73m2"
+  ],
+  "mri_predictors": [
+    "brain_parenchymal_fraction_m12",
+    "brain_volume_change_pct_m0_m12",
+    "t2_lesion_volume_m12_ml",
+    "cord_area_m12_mm2",
+    "cord_area_change_pct_m0_m12"
+  ],
+  "blood_predictors": [
+    "snfl_m12_pg_ml",
+    "sgfap_m12_pg_ml",
+    "snfl_log2_change_m0_m12",
+    "sgfap_log2_change_m0_m12"
+  ],
+  "primary_comparison": [
+    "clinical_plus_mri",
+    "clinical_plus_mri_plus_blood"
+  ],
+  "clinical_parameter_count": 11,
+  "mri_parameter_count": 5,
+  "blood_parameter_count": 4,
+  "total_candidate_parameters_excluding_baseline_hazard": 20,
+  "fit_model_now": false,
+  "python_version": "3.12.14",
+  "numpy_version": "2.3.5",
+  "pandas_version": "2.2.3",
+  "missing_value_encoding": "Blank; never zero",
+  "analysis_outcome": [
+    "followup_months",
+    "pira_event"
+  ]
+}
