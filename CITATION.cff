@@ -7,5 +7,5 @@ authors:
     given-names: "Tariq Issam"
 version: "1.0.0"
 date-released: "2026-11-05"
-url: "https://github.com/YOUR-USERNAME/pira-prediction-synthetic-data"
+url: "https://github.com/Tariq-KU/pira-prediction-synthetic-data"
 abstract: "Synthetic development and test cohorts used to evaluate the incremental predictive value of serum biomarkers beyond clinical and MRI predictors for PIRA."
